@@ -1,8 +1,5 @@
 package maxusingGenerics;
 
-import java.util.Scanner;
-import java.lang.Math;
-
 public class MaxOf<T extends Comparable<T>> {
 
 	T a;
@@ -33,6 +30,8 @@ public class MaxOf<T extends Comparable<T>> {
         MaxOf campareFloat = new MaxOf(-2.2f,5.2f,12.2f);
         System.out.println("Maximum Number Out of Three Float is:- " + campareFloat.maximum());
 
+        MaxOf compareString = new MaxOf("Nitin", "Sachin", "Babu");
+        System.out.println("Maximum among Three String is: " +compareString.maximum());
 
 	}
 
