@@ -29,6 +29,9 @@ public class MaxOf<T extends Comparable<T>> {
 	public static void main(String[] args) {
 		MaxOf campareInterger = new MaxOf(457,654,123);
         System.out.println("Maximum Number Out of Three Integer is:- " + campareInterger.maximum());
+        
+        MaxOf campareFloat = new MaxOf(-2.2f,5.2f,12.2f);
+        System.out.println("Maximum Number Out of Three Float is:- " + campareFloat.maximum());
 
 
 	}
